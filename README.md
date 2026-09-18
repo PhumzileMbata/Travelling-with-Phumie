@@ -45,5 +45,15 @@ Web hosting	R900	Annual
 Website design and development	R6,000	Once-off
 Stock imagery / assets	R500	Once-off
 Ongoing maintenance and updates	R400	Monthly
+## Changelog
 
+### Part 2
+- Created external stylesheet (style.css) and linked it across all 5 pages
+- Added base typography scale (Fraunces for headings, Work Sans for body) with fluid font sizing via clamp()
+- Built desktop layout using CSS Grid for the destination cards and hero, Flexbox for header/nav and footer
+- Applied visual styles: card shadows, border accents, styled pricing table, gradient destination badges where no matching photo was available
+- Added interactive states (:hover, :focus-visible, :active) on nav links, buttons, cards, and form fields
+- Implemented responsive breakpoints at 64rem, 48rem, and 30rem; used rem/em/% units and clamp() throughout
+- Added a responsive hero image using <picture>/srcset for different screen widths
+- Fixed HTML structural issues from Part 1 (missing <body> tags, meta ordering)
 
